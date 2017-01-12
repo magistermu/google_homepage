@@ -1,0 +1,166 @@
+body {
+	font-family: arial,sans-serif;
+	color: #222;
+}
+
+.outer {
+	width: 100%;
+}
+
+.logo-out {
+	padding-top: 200px;
+}
+
+.logo {
+	width: 272px;
+	height: 92px;
+	margin: 0 auto;
+	background: url("../images/google.png") no-repeat;
+}
+
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    top: 76px;
+    left: 215px;
+}
+
+.search {
+	width: 
+}
+
+.nav {
+	padding-left: 15px;
+}
+.nav_top {
+	float: right;
+	margin-top: 10px;
+	padding: 5px 20px;
+}
+
+.nav_top a {
+	color: #000;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    float: left;
+    line-height: 30px;
+    padding-right: 12px;
+    display: inline-block;
+    text-align: middle;
+    font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.multi {
+	background: url("../images/multi.png") no-repeat;
+	height: 30px;
+	width: 30px; 
+	opacity: .55;
+}
+
+.multi:hover{
+	opacity: 1;
+}
+
+.square {
+	background-position: -132px -38px;
+}
+
+.bell {
+	background-position: -275px -38px;
+}
+
+.photo {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px; 
+	background-image: url("../images/photo.jpg");
+}
+
+.search {
+	margin: 0 auto;
+	width: 550px;
+	padding: 30px 0px;
+}
+
+.mic {
+	width: 100%;
+	line-height: 34px;
+	background-image: url("../images/mic.png");
+	background-size: 24px 24px; 
+	background-repeat: no-repeat;
+	background-position: 99%;
+	border: 1px solid #d9d9d9;
+	font-size: small;
+	padding-left: 10px;
+}
+
+.mic:active {
+	border: 1px solid #14E7FF;
+}
+
+.buttons {
+	width: 550px;
+	margin: 0 auto;
+	text-align: center;
+	color: #222;
+}
+
+.buttons input {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
+
+.buttons input:hover {
+	border: 1px solid #d9d9d9;
+	color: #020202;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: solid 1px #e4e4e4;
+	line-height: 40px;
+	padding: 5px 10px;
+}
+
+.footer li {
+	padding-right: 30px;
+}
+.footer a {
+	color: #666;
+}
+
+.nav_r {
+	float: right;
+	padding-right: 20px;
+}
